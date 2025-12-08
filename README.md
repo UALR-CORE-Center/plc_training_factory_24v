@@ -9,8 +9,8 @@ This project contains the PLC programs, the IOT gateway SD card image with [Node
 | [PLC_S7_1500](PLC_S7_1500/README.md)                       | PLC S7 1500 project (TIA Portal v16)                 |
 | [PLC_S7_1500_exercises](PLC_S7_1500_exercises/README.md)   | PLC S7 1500 exercises (TIA Portal v16)               |
 | [PLC_SCL_sources](PLC_SCL_sources/README.md)               | PLC sources as SCL (Structured Control Language)     |
-| [GatewayPLC](GatewayPLC/README.md)                         | ROBO Pro Coding program GatewayPLC.ft for the **TXT 4.0 controller** |
-| [TxtGatewayPLC](TxtGatewayPLC/README.md)                   | C program TxtGatewayPLC.cloud for the **TXT controller** |
+| [GatewayPLC](GatewayPLC/)                                  | ROBO Pro Coding program GatewayPLC.ft for the **TXT 4.0 controller** |
+| [TxtGatewayPLC](TxtGatewayPLC/)                            | C program TxtGatewayPLC.cloud for the **TXT controller** |
 
 ## Hints
 * In the PLC examples PWM must be activated on the adapter boards. Please check the jumpers and activate all PWMs if they are disabled!
