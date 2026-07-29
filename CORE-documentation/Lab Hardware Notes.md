@@ -214,9 +214,24 @@ sudo apt-get install ntp -y
 sudo nano /etc/ntp.conf`
 
 Add these lines:
-`server 127.127.1.0
-fudge 127.127.1.0 stratum 10
+
+`tinker panic 0
+tos orphan 1`
+
+`server 127.127.1.0 iburst prefer
+fudge 127.127.1.0 stratum 0 refid LOCL
 restrict 192.168.0.0 mask 255.255.255.0 nomodify notrap`
+
+`restrict 127.0.0.1
+restrict 127.127.1.0
+restrict ::1`
+
+and comment out all the pool lines (add `#` at the beginning of each line).
+
+`#pool 0.debian.pool.ntp.org iburst
+#pool 1.debian.pool.ntp.org iburst
+#pool 2.debian.pool.ntp.org iburst
+#pool 3.debian.pool.ntp.org iburst`
 
 then: 
 
