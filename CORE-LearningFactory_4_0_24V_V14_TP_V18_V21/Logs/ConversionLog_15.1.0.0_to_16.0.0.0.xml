@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="Lernfabrik_4_0_24V_V02_V16" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:50:04">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Hochrüsten gestartet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:50:08" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:50:08">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:50:11" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:50:12">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:50:12" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:32">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ProgramBlocksFolder\Main' - Prüfsummeninkonsistenz für 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ProgramBlocksFolder\OpcMethod_VGR_Trigger' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ProgramBlocksFolder\Global Declaration\gtyp_Interface_Dashboard' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ProgramBlocksFolder\InstOPCMethod_VGR_Trigger' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Interface Dashboard\typ_MQTT_Interface_Dashboard' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Interface Dashboard\typ_MQTT_Interface_Dashboard_Subscribe' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Interface Dashboard\typ_MQTT_ Interface_Dashboard_Publish' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_State_Client' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Acknowledgment_Client' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Stock_Item' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Workpiece' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_VGR_Trigger' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Environment_Sensor' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Brightness_Sensor' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Pos_Pan_Tilt_Unit_Enc' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Camera_Picture' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Alert_Message' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Order_Workpiece_Buttons' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Action_Buttons_NFC_Module' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Joysticks' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeUnionMyDatatype' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeOpcUaLocalizedText' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeOpcUaByteString' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeOpcUaGuid' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeOpcUaMethodHandling' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\typeOpcUaStatus' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Broadcast' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Pos_Pan_Tilt_Unit_Mov' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Config_Enviorment_Sensor' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Config_Brightness_Sensor' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Config_Camera_Picture' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_Order_Workpiece_Buttons_State' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_NFC_Module_State' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="27.03.2020 13:51:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC\ControllerDataTypeFolder\Generally\typ_History' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:51:39">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Die Querverweisinformationen werden konvertiert." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:51:41">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Die Querverweisinformationen wurden erfolgreich erstellt" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:51:41">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Das Konvertieren der Querverweisinformationen ist beendet." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:51:47" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.OpcUa.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:51:47" Debug="false">
+    <Text>Package container 'Siemens.Simatic.OpcUa' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:51:47" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V15.1.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="27.03.2020 13:51:49">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Projekt 'C:\Users\remotetsm\Desktop\Lernfabrik\Lernfabrik_4_0_24V_V02\System\PEData.plf' wurde erfolgreich hochgerüstet und gespeichert als Projekt 'C:\Users\remotetsm\Desktop\Lernfabrik\Lernfabrik_4_0_24V_V02_V16\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="27.03.2020 13:51:50">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="27.03.2020 13:51:50" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
