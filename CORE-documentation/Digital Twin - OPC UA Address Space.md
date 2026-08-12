@@ -4,7 +4,7 @@
 
 **PLC OPC UA server:** `opc.tcp://192.168.0.1:4840`
 
-**Address pattern:** `ns=3;s="gtyp_<STATION>"."<Axis/Field>"."<Variable>"`
+**Address pattern:** `ns=3;s="gtyp_<STATION>"."<Axis/Field>"."<Variable>"` (structured) · `ns=3;s="<PLC_Tag>"` (flat I/O)
 
 ---
 
@@ -27,12 +27,17 @@
 | VGR | Horizontal Axis | `gtyp_VGR.horizontal_Axis.x_Position_Reached` | Boolean | `fl/i/dt/vgr/pos` | `hz_axis_posreached` |
 | VGR | Vertical Axis | `gtyp_VGR.vertical_Axis.x_Position_Reached` | Boolean | `fl/i/dt/vgr/pos` | `vert_axis_posreached` |
 | VGR | Rotate Axis | `gtyp_VGR.rotate_Axis.x_Position_Reached` | Boolean | `fl/i/dt/vgr/pos` | `rot_axis_posreached` |
+| VGR | Vacuum gripper (pick) | `QX_VGR_ValveVacuum_Q8` | Boolean | `fl/i/dt/vgr/pos` | `vac_pick` |
 | SSC | Horizontal Axis | `gtyp_SSC.Horizontal_Axis.di_Actual_Position` | Int32 | `fl/i/dt/ssc/pos` | `hz_axis_actpos` |
 | SSC | Horizontal Axis | `gtyp_SSC.Horizontal_Axis.di_Target_Position` | Int32 | `fl/i/dt/ssc/pos` | `hz_axis_targetpos` |
 | SSC | Horizontal Axis | `gtyp_SSC.Horizontal_Axis.x_Position_Reached` | Boolean | `fl/i/dt/ssc/pos` | `hz_axis_posreached` |
 | SSC | Vertical Axis | `gtyp_SSC.Vertical_Axis.di_Actual_Position` | Int32 | `fl/i/dt/ssc/pos` | `vert_axis_actpos` |
 | SSC | Vertical Axis | `gtyp_SSC.Vertical_Axis.di_Target_Position` | Int32 | `fl/i/dt/ssc/pos` | `vert_axis_targetpos` |
 | SSC | Vertical Axis | `gtyp_SSC.Vertical_Axis.x_Position_Reached` | Boolean | `fl/i/dt/ssc/pos` | `vert_axis_posreached` |
+| SSC | Status LED green | `QX_SSC_LED_Green_Q5` | Boolean | `fl/i/dt/ssc/pos` | `led_green` |
+| SSC | Status LED yellow | `QX_SSC_LED_Yellow_Q6` | Boolean | `fl/i/dt/ssc/pos` | `led_yellow` |
+| SSC | Status LED red | `QX_SSC_LED_Red_Q7` | Boolean | `fl/i/dt/ssc/pos` | `led_red` |
+| SSC | Status LED red (online/outside) | `QX_SSC_LED_Red_Online_Q8` | Boolean | `fl/i/dt/ssc/pos` | `led_red_outside` |
 | MPO | Oven Door (Open/Closed) | `QX_MPO_ValveOvenDoor_Q13` | Boolean | `fl/i/dt/mpo/pos` | `oven_door_opened` |
 | MPO | Saw Activated | `QX_MPO_M3_Saw_Q4` | Boolean | `fl/i/dt/mpo/pos` | `saw_active` |
 | MPO | Conveyor Belt Moving | `QX_MPO_M2_ConveyorBeltForward_Q3` | Boolean | `fl/i/dt/mpo/pos` | `convetor_belt` |
@@ -44,7 +49,20 @@
 | MPO | Turntable at belt position | `IX_MPO_RefSwitchTurnTable_PosBelt_I2` | Boolean | `fl/i/dt/mpo/pos` | `turntable_pos_belt` |
 | MPO | Vacuum at turntable position | `IX_MPO_RefSwitchVac_PosTurnTable_I5` | Boolean | `fl/i/dt/mpo/pos` | `vac_pos_turntable` |
 | MPO | Vacuum at oven position | `IX_MPO_RefSwitchVac_PosOven_I8` | Boolean | `fl/i/dt/mpo/pos` | `vac_pos_oven` |
+| MPO | Vacuum lowering valve | `QX_MPO_ValveLowering_Q12` | Boolean | `fl/i/dt/mpo/pos` | `vac_lowering` |
+| MPO | Vacuum gripper (pick) | `QX_MPO_ValveVacuum_Q11` | Boolean | `fl/i/dt/mpo/pos` | `vac_pick` |
 | SLD | Valve first (White) | `QX_SLD_ValveFirstEjectorWhite_Q3` | Boolean | `fl/i/dt/sld/pos` | `valve_first` |
 | SLD | Valve second (Red) | `QX_SLD_ValveSecondEjectorRed_Q4` | Boolean | `fl/i/dt/sld/pos` | `valve_second` |
 | SLD | Valve third (Blue) | `QX_SLD_ValveThirdEjectorBlue_Q5` | Boolean | `fl/i/dt/sld/pos` | `valve_third` |
 | SLD | Conveyor Belt Active | `QX_SLD_M1_ConveyorBelt_Q1` | Boolean | `fl/i/dt/sld/pos` | `conveyor_belt_active` |
+| PHS | HBW conveyor entry barrier | `IX_HBW_LightBarrierInside_I2` | Boolean | `fl/i/dt/phs/act` | `hbw_conveyor_entry` |
+| PHS | HBW conveyor exit barrier | `IX_HBW_LightBarrierOutside_I3` | Boolean | `fl/i/dt/phs/act` | `hbw_conveyor_exit` |
+| PHS | MPO conveyor end barrier | `IX_MPO_LightBarrierEndOfConBelt_I3` | Boolean | `fl/i/dt/phs/act` | `mpo_conveyor_exit` |
+| PHS | SLD inlet barrier | `IX_SLD_LightBarrierInlet_I2` | Boolean | `fl/i/dt/phs/act` | `sld_conveyor_entry` |
+| PHS | SLD behind color sensor barrier | `IX_SLD_LightBarrierBehindColorSensor_I3` | Boolean | `fl/i/dt/phs/act` | `sld_color_exit` |
+| PHS | SLD white delivery barrier | `IX_SLD_LightBarrierWhite_I5` | Boolean | `fl/i/dt/phs/act` | `sld_deliver_white` |
+| PHS | SLD red delivery barrier | `IX_SLD_LightBarrierRed_I6` | Boolean | `fl/i/dt/phs/act` | `sld_deliver_red` |
+| PHS | SLD blue delivery barrier | `IX_SLD_LightBarrierBlue_I7` | Boolean | `fl/i/dt/phs/act` | `sld_deliver_blue` |
+| PHS | SSC storage barrier | `IX_SSC_LightBarrierStorage_I3` | Boolean | `fl/i/dt/phs/act` | `packaging_station` |
+| PHS | SSC outsourcing barrier | `IX_SSC_LightBarrierOutsourcing_I4` | Boolean | `fl/i/dt/phs/act` | `delivery_station` |
+| PHS | MPO oven entry barrier | `IX_MPO_LightBarrierOven_I9` | Boolean | `fl/i/dt/phs/act` | `oven_entry` |
