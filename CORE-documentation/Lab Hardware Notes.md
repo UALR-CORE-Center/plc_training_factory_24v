@@ -95,7 +95,7 @@ The image below shows the fully assembled PLC connection board with all modules 
 | --- | --- | --- | --- | --- | --- |
 | Raspberry Pi | `192.168.0.5` | SSH | `pi` | `ft-IOTpi2` | 22 |
 | Raspberry Pi | `192.168.0.5` | Node-RED | — | — | 1880 |
-| TP-Link Router | `192.168.0.252` | Web UI | `admin` | `TempPass#!` | — |
+| TP-Link Router | `192.168.0.252 or tplinkwifi.net` | Web UI | `admin` | `TempPass#!` | — |
 | TXT Controller | `192.168.0.10` | Web UI | `ft` | `fischertechnik` | — |
 | TXT Controller | `192.168.0.10` | SSH | `ft` | `fischertechnik` | 22 |
 | TXT Controller | `192.168.0.10` | Node-RED | `ft` | `fischertechnik` | 1880 |
